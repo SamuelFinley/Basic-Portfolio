@@ -79,7 +79,9 @@
 }
 
 .gallery div {
-    padding: 25px;
+    margin: 25px;
+    position: relative;
+    z-index: 1;
 }
 
 #mainContent form {
@@ -94,8 +96,7 @@
 }
 
 .app {
-    margin: 0px;
-    padding: 0px;
+    background-image: url("../images/restaurant_icons.png");
     position: relative;
     min-height: 100vh;
     overflow-x: hidden;
@@ -150,6 +151,23 @@
     margin: 10px;
 }
 
+.title, #atl {
+    position: absolute;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#atl {
+    color:#80000A;
+    background-color: #A19060;
+}
 .sidebar > div {
     align-content: center;
     align-items: center;
